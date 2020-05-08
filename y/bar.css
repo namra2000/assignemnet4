@@ -1,0 +1,141 @@
+.main{
+
+    background-color: cornflowerblue;
+   width: 1300px;
+
+}
+.main2{
+
+    background-color:#F8F8FF;
+    width: 1300px;
+}
+nav ul{
+padding: 0;
+margin: 0;
+float: right;
+margin-right: 20px;
+
+}
+nav ul li{
+   background:#F8F8FF;
+   position: relative;
+   list-style: none;
+   display: inline-block
+}
+nav ul li a{
+display: block;
+padding:  0 12px;
+border-radius: 70px;
+color: black;
+text-decoration:none;
+font-size: 15px;
+line-height: 40px;
+
+}
+nav ul li a:hover{
+    width: 80.5%;
+    background:cornflowerblue;
+}
+nav ul ul{
+
+    position: absolute;
+    text-outline: 40px;
+    display: none;
+}
+nav ul li:hover>ul{
+    display: block;
+}
+nav ul ul li{
+ width: 200px;
+ float: none;
+ display: list-item;
+ position: relative;
+}
+.main3{
+
+    font-size: 9.5px;
+    font-family: sans-serif;
+    
+}
+p{
+    font-family:Times New Roman;
+    color: grey;
+   
+}
+h2{
+    color: white;
+}
+.main4{
+margin-left: 170px;
+margin-right: 170px;
+}
+.icon{
+   
+    background-color:royalblue;
+    height: 300px;
+    width: 1300px;
+    color: white;
+}
+.container{
+
+  overflow: hidden;
+  background:whitesmoke;
+  margin: 20px ;
+  padding: 20px;
+  width: 1200px;
+}
+.container ul{
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+}
+.container ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    height: 200px;
+    background:white;
+    margin:40px 40px 0px 55px;
+}
+.box{
+  float: center; 
+  width: 60%;
+  overflow: hidden;
+  background:lightblue;
+  margin: 10px auto;
+  padding: 20px;
+}
+.box ul{
+    padding: 0px;
+    margin: 0px; 
+}
+.box ul li{
+list-style: none;
+float: left;
+width: 35%;
+height: 100px;
+background:whitesmoke;
+margin:40px 40px 0px 55px;
+}
+.marque{
+    margin-left: 350px;
+    margin-right: 350px;
+    color:gray;
+    background-color:white;
+    height: 70%;
+    font-family: sans-serif;
+
+    
+}
+.last{
+    background-color: darkslategrey;
+    height: 320px;
+    color:silver;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.main3{
+    width: 1300px;
+}
+
+
